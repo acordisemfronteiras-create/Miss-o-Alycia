@@ -1014,7 +1014,7 @@ function showTitle(){G=null;state='menu';showControls(false);AudioSys.play('menu
     '<div class="titleRow">'+av('data-id="alycia" data-dance="1"',230,270)+
     '<div class="col"><div class="welcome">Bem-vinda, Alycia!</div><button class="btn big gold" data-act="map">▶ Jogar</button>'+
     '<div class="row"><button class="btn" data-act="shop" data-v="outfit">🛍️ Loja</button><button class="btn teal" data-act="ach">🏆 Conquistas</button></div>'+
-    (save.done[5]?'<button class="btn ghost" data-act="letter">💌 Cartinha</button>':'')+'</div>'+
+    '<div class="row"><a class="btn ghost" style="text-decoration:none" href="3d/">🌟 Aventura 3D</a>'+(save.done[5]?'<button class="btn ghost" data-act="letter">💌 Cartinha</button>':'')+'</div></div>'+
     av('data-trio="1"',330,270)+'</div></div>')}
 function showMap(){G=null;state='menu';showControls(false);AudioSys.play('menu');
   let h='<div class="screen"><div class="head"><button class="btn ghost" data-act="title">←</button><h2>Escolha a missão</h2><span class="coins">🪙 '+save.coins+'</span></div><div class="grid g3">';

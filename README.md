@@ -3,7 +3,9 @@
 Jogo de plataforma 2D para celular e tablet, feito de presente para a Alycia.
 É um único arquivo (`index.html`) em HTML, CSS e JavaScript puros, sem dependências, sem imagens e sem arquivos de som: tudo é desenhado e tocado por código.
 
-**Jogar:** https://acordisemfronteiras-create.github.io/Miss-o-Alycia/
+**Jogar (2D):** https://acordisemfronteiras-create.github.io/Miss-o-Alycia/
+
+**Aventura 3D:** https://acordisemfronteiras-create.github.io/Miss-o-Alycia/3d/
 
 ## Como jogar
 
@@ -22,6 +24,12 @@ Dica: no iPhone/iPad, abra o link no Safari, toque em **Compartilhar → Adicion
 - Missão bônus diferente a cada dia (+50 moedas na primeira vez do dia).
 - Loja com roupas, penteados e armas mágicas, 15 conquistas e de 1 a 3 estrelas por missão.
 - Cartinha final de parabéns depois do Grande Show Final.
+
+## Versão 3D (pasta `3d/`)
+
+- Aventura em 3D com 4 missões e 2 chefões, também em um único `index.html` (o Three.js vai embutido no arquivo).
+- Controle redondo à esquerda para andar, ⬆ para pular e ✨ para o giro mágico. No teclado: setas ou WASD, Espaço e Z.
+- As moedas ganhas no 3D também valem na loja do jogo 2D, no mesmo aparelho.
 
 ## Publicar no GitHub Pages (passo a passo)
 
